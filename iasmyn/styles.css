@@ -7,19 +7,21 @@ body{
 
    background-color: rgb(255, 255, 255); 
    display: flex;
-   justify-content: center;
-   align-items: center;
+   /* justify-content: center; */
+   /* align-items: center; */
    height: 100vh;
    width: 100vw;
 }
 
 .mamae{
 display: flex;
-flex-direction: column;
+align-items: flex-start;
 justify-content: flex-start;
-height: 500px;
-width: 100vw;
+flex-direction: row;
+height: 120px;
+width: 120px;
 border: solid 20px rebeccapurple;
-align-items: baseline;
+background-image: url("https://images.tcdn.com.br/files/1175048/themes/29/img/settings/logoazul.png");
+
 
 }
