@@ -49,3 +49,20 @@ display: flex;
 gap: 25px;
 justify-content: center;
 }
+
+.content3 {
+border: solid 1px black ;
+width: 500px;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.content3 input{
+height: 40px;
+width: 250px;
+}
+
+.content3 i{
+height: 50px;
+}
