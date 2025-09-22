@@ -18,10 +18,11 @@ display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
-height: 120px;
-width: 120px;
-border: solid 20px rebeccapurple;
+height: 170px;
+width: 170px;
 background-image: url("https://images.tcdn.com.br/files/1175048/themes/29/img/settings/logoazul.png");
-
+background-size: contain;
+background-repeat: no-repeat;
 
 }
+
