@@ -15,14 +15,26 @@ body{
 
 .mamae{
 display: flex;
+height: 100px;
+width: 100vW;
+}
+
+.content1{
+display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
+height: 100px;
+width: 100px;
+font-size: larger;
+}
+.content1 img{
 height: 170px;
 width: 170px;
-background-image: url("https://images.tcdn.com.br/files/1175048/themes/29/img/settings/logoazul.png");
-background-size: contain;
-background-repeat: no-repeat;
-
 }
-
+.content2{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+}
