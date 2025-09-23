@@ -14,8 +14,9 @@ body{
     display: flex;
     height: 70px;
     width: 100vW;
-    justify-content: space-between;
-    border: solid 1px red;
+    justify-content: center;
+    gap: 30px;
+    
 }
 
 .content1{
@@ -29,14 +30,13 @@ body{
 }
 
 .content1 img{
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
 }
 
 .content2{
     display: flex;
     flex-direction: column;
-    border: solid 1px green;
     justify-content: space-between;
 }
 
@@ -48,22 +48,24 @@ body{
 display: flex;
 gap: 25px;
 justify-content: center;
+color: rgb(73, 147, 207);
+font-size: small;
 }
 
 .content3 {
-border: solid 1px black ;
-width: 500px;
 display: flex;
 align-items: center;
 gap: 10px;
+/* border: solid 5px red; */
 }
 
 .content3 input{
 height: 40px;
 width: 250px;
-border: solid 3px palevioletred;
+border: solid 3px rgb(73, 147, 207);
 }
 
 .content3 i{
 font-size: 30px;
+color: rgb(73, 147, 207);
 }
