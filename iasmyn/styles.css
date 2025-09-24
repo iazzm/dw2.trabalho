@@ -6,6 +6,7 @@
 body{
     background-color: rgb(255, 255, 255); 
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
 }
@@ -68,4 +69,67 @@ border: solid 3px rgb(73, 147, 207);
 .content3 i{
 font-size: 30px;
 color: rgb(73, 147, 207);
+}
+
+.esposa {
+width: 100vw;
+height: 300px;
+display: flex;
+justify-content: center;
+padding-top: 70px;
+}
+
+.esposa img{
+    width: 1300px;
+    height: 290px;
+    border: solid 2px rgb(73, 147, 207);
+}
+.noiva{
+width: 100vw;
+border: solid 5px red;
+height: 300px;
+align-items: flex-start;
+}
+
+
+.icon1 i{
+font-size: large;
+
+}
+
+.titulo1 {
+    font-size: larger;
+
+}
+
+.info1 {
+    color: rgb(73, 147, 207);
+}
+
+
+.titulo2 {
+    font-size: larger;
+
+}
+
+.info2 {
+    color: rgb(73, 147, 207);
+}
+
+.titulo3 {
+    font-size: larger;
+
+}
+
+.info3 {
+    color: rgb(73, 147, 207);
+}
+
+.titulo4 {
+    font-size: larger;
+
+}
+
+.info4 {
+    color: rgb(73, 147, 207);
 }
