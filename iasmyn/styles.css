@@ -88,17 +88,26 @@ padding-top: 70px;
 width: 100vw;
 border: solid 5px red;
 height: 300px;
-align-items: flex-start;
+display: flex;
+justify-content: space-around;
 }
 
+.frente{
+    width: 230px;
+    height: 60px;
+    border: solid 1px blue;
+    display: flex;
+}
 
 .icon1 i{
-font-size: large;
+font-size: 25px;
+color: rgb(73, 147, 207);
 
 }
 
 .titulo1 {
     font-size: larger;
+    
 
 }
 
@@ -132,4 +141,13 @@ font-size: large;
 
 .info4 {
     color: rgb(73, 147, 207);
+}
+
+.meio1 {
+width: 250px;
+}
+
+.frente {
+display: flex;
+flex-direction: column;
 }
