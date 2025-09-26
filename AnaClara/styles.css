@@ -48,6 +48,12 @@ body { background-color: rgb(255, 255, 255);
 
 }
 
+.titulo a {
+
+    text-decoration: none;
+    color: black;
+}
+
 
 .bola {
     /* border: solid 1px rgb(255, 3, 158); */
