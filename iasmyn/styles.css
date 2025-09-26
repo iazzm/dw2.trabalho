@@ -11,6 +11,21 @@ body{
     width: 100vw;
 }
 
+.ban {
+    width: 100vw;
+    height: 16px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+
+}
+ 
+.ban p{
+    color: white;
+
+}
+
 .mamae {
     display: flex;
     height: 70px;
@@ -86,29 +101,30 @@ padding-top: 70px;
 }
 .noiva{
 width: 100vw;
-border: solid 5px red;
 height: 300px;
 display: flex;
-justify-content: space-around;
+justify-content: center;
+align-items: center;
+gap: 50px;
 }
 
 .frente{
     width: 230px;
     height: 60px;
-    border: solid 1px blue;
     display: flex;
 }
 
 .icon1 i{
-font-size: 25px;
+font-size: 70px;
 color: rgb(73, 147, 207);
+height: 40px;
+width: 40px;
 
 }
 
 .titulo1 {
-    font-size: larger;
+    font-size: 25px;
     
-
 }
 
 .info1 {
@@ -117,30 +133,33 @@ color: rgb(73, 147, 207);
 
 
 .titulo2 {
-    font-size: larger;
+    font-size: 25px;
 
 }
 
 .info2 {
     color: rgb(73, 147, 207);
+      font-size: large;
 }
 
 .titulo3 {
-    font-size: larger;
+    font-size: 25px;
 
 }
 
 .info3 {
     color: rgb(73, 147, 207);
+      font-size: large;
 }
 
 .titulo4 {
-    font-size: larger;
+    font-size: 25px;
 
 }
 
 .info4 {
     color: rgb(73, 147, 207);
+      font-size: large;
 }
 
 .meio1 {
