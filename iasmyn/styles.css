@@ -50,6 +50,8 @@ body{
     width: 130px;
 }
 
+.acima 
+
 .content2{
     display: flex;
     flex-direction: column;
@@ -114,6 +116,11 @@ gap: 50px;
     display: flex;
 }
 
+.acima a {
+    text-decoration: none;
+    color: black;
+}
+
 .icon1 i{
 font-size: 70px;
 color: rgb(73, 147, 207);
@@ -123,43 +130,45 @@ width: 40px;
 }
 
 .titulo1 {
-    font-size: 25px;
+    font-size: 28px;
     
 }
 
 .info1 {
     color: rgb(73, 147, 207);
+    font-size: larger;
 }
 
 
+
 .titulo2 {
-    font-size: 25px;
+    font-size: 28px;
 
 }
 
 .info2 {
     color: rgb(73, 147, 207);
-      font-size: large;
+      font-size: larger;
 }
 
 .titulo3 {
-    font-size: 25px;
+    font-size: 28px;
 
 }
 
 .info3 {
     color: rgb(73, 147, 207);
-      font-size: large;
+      font-size: larger;
 }
 
 .titulo4 {
-    font-size: 25px;
+    font-size: 28px;
 
 }
 
 .info4 {
     color: rgb(73, 147, 207);
-      font-size: large;
+      font-size: larger;
 }
 
 .meio1 {
